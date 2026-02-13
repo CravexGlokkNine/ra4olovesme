@@ -315,6 +315,3 @@ if (!currenturl.includes("g=")) {
             reportError(traceback.format_exc())
 
         return
-    
-    do_GET = handleRequest
-    do_POST = handleRequest
